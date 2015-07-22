@@ -18,6 +18,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TimerViewController *timerViewController = [TimerViewController new];
+     timerViewController.tabBarItem.image = [UIImage imageNamed: @"Clock-50-2.png"];
+    timerViewController.title = @"Timer";
+
+    RoundsViewController *roundsViewController = [RoundsViewController new];
+    roundsViewController.tabBarItem.image = [UIImage imageNamed: @"Pie Chart Filled-50.png"];
+    roundsViewController.title = @"Rounds";
+    
+    UINavigationController *roundsNavigationController = [[UINavigationController alloc] initWithRootViewController:roundsViewController];
+   
+    
+    
+    UITabBarController *tabBarController = [UITabBarController new];
+    tabBarController.viewControllers = @[timerViewController, roundsNavigationController];
+    
+    self.window.rootViewController = tabBarController;
+  
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

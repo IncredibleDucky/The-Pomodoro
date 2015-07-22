@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimerViewController.h"
+#import "RoundsViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

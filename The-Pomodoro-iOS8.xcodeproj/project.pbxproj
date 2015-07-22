@@ -12,6 +12,14 @@
 		34FB5C1F1A95A83100E3E2F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FB5C1E1A95A83100E3E2F8 /* Images.xcassets */; };
 		34FB5C221A95A83100E3E2F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FB5C201A95A83100E3E2F8 /* LaunchScreen.xib */; };
 		34FB5C2E1A95A83200E3E2F8 /* The_Pomodoro_iOS8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB5C2D1A95A83200E3E2F8 /* The_Pomodoro_iOS8Tests.m */; };
+		9327F9F51B5EEA3E00308A8E /* Clock-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9327F9F41B5EEA3E00308A8E /* Clock-50-2.png */; };
+		9327F9F71B5EEB5100308A8E /* Pie Chart Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9327F9F61B5EEB5100308A8E /* Pie Chart Filled-50.png */; };
+		9327F9FD1B5EEE9100308A8E /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327F9FB1B5EEE9100308A8E /* TimerViewController.m */; };
+		9327F9FE1B5EEE9100308A8E /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9327F9FC1B5EEE9100308A8E /* TimerViewController.xib */; };
+		9327FA021B5EEEB900308A8E /* RoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327FA001B5EEEB900308A8E /* RoundsViewController.m */; };
+		9327FA031B5EEEB900308A8E /* RoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9327FA011B5EEEB900308A8E /* RoundsViewController.xib */; };
+		9327FA081B5EF6DA00308A8E /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327FA071B5EF6DA00308A8E /* Timer.m */; };
+		9327FA0B1B5EFD8400308A8E /* RoundsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327FA0A1B5EFD8400308A8E /* RoundsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,18 @@
 		34FB5C271A95A83100E3E2F8 /* The-Pomodoro-iOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The-Pomodoro-iOS8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FB5C2C1A95A83200E3E2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34FB5C2D1A95A83200E3E2F8 /* The_Pomodoro_iOS8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Pomodoro_iOS8Tests.m; sourceTree = "<group>"; };
+		9327F9F41B5EEA3E00308A8E /* Clock-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-50-2.png"; sourceTree = "<group>"; };
+		9327F9F61B5EEB5100308A8E /* Pie Chart Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart Filled-50.png"; sourceTree = "<group>"; };
+		9327F9FA1B5EEE9100308A8E /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerViewController.h; path = ../TimerViewController.h; sourceTree = "<group>"; };
+		9327F9FB1B5EEE9100308A8E /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerViewController.m; path = ../TimerViewController.m; sourceTree = "<group>"; };
+		9327F9FC1B5EEE9100308A8E /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimerViewController.xib; path = ../TimerViewController.xib; sourceTree = "<group>"; };
+		9327F9FF1B5EEEB900308A8E /* RoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundsViewController.h; path = ../RoundsViewController.h; sourceTree = "<group>"; };
+		9327FA001B5EEEB900308A8E /* RoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundsViewController.m; path = ../RoundsViewController.m; sourceTree = "<group>"; };
+		9327FA011B5EEEB900308A8E /* RoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoundsViewController.xib; path = ../RoundsViewController.xib; sourceTree = "<group>"; };
+		9327FA041B5EF28400308A8E /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		9327FA071B5EF6DA00308A8E /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		9327FA091B5EFD8400308A8E /* RoundsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsController.h; sourceTree = "<group>"; };
+		9327FA0A1B5EFD8400308A8E /* RoundsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +98,21 @@
 			children = (
 				34FB5C151A95A83100E3E2F8 /* AppDelegate.h */,
 				34FB5C161A95A83100E3E2F8 /* AppDelegate.m */,
+				9327F9FA1B5EEE9100308A8E /* TimerViewController.h */,
+				9327F9FB1B5EEE9100308A8E /* TimerViewController.m */,
+				9327F9FC1B5EEE9100308A8E /* TimerViewController.xib */,
+				9327FA041B5EF28400308A8E /* Timer.h */,
+				9327FA071B5EF6DA00308A8E /* Timer.m */,
+				9327F9FF1B5EEEB900308A8E /* RoundsViewController.h */,
+				9327FA001B5EEEB900308A8E /* RoundsViewController.m */,
+				9327FA011B5EEEB900308A8E /* RoundsViewController.xib */,
+				9327FA091B5EFD8400308A8E /* RoundsController.h */,
+				9327FA0A1B5EFD8400308A8E /* RoundsController.m */,
+				9327F9F41B5EEA3E00308A8E /* Clock-50-2.png */,
+				9327F9F61B5EEB5100308A8E /* Pie Chart Filled-50.png */,
 				34FB5C1E1A95A83100E3E2F8 /* Images.xcassets */,
 				34FB5C201A95A83100E3E2F8 /* LaunchScreen.xib */,
+				34FB5C121A95A83100E3E2F8 /* Info.plist */,
 				34FB5C111A95A83100E3E2F8 /* Supporting Files */,
 			);
 			path = "The-Pomodoro-iOS8";
@@ -88,7 +121,6 @@
 		34FB5C111A95A83100E3E2F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34FB5C121A95A83100E3E2F8 /* Info.plist */,
 				34FB5C131A95A83100E3E2F8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -191,8 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9327FA031B5EEEB900308A8E /* RoundsViewController.xib in Resources */,
+				9327F9FE1B5EEE9100308A8E /* TimerViewController.xib in Resources */,
 				34FB5C221A95A83100E3E2F8 /* LaunchScreen.xib in Resources */,
+				9327F9F71B5EEB5100308A8E /* Pie Chart Filled-50.png in Resources */,
 				34FB5C1F1A95A83100E3E2F8 /* Images.xcassets in Resources */,
+				9327F9F51B5EEA3E00308A8E /* Clock-50-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9327FA081B5EF6DA00308A8E /* Timer.m in Sources */,
+				9327F9FD1B5EEE9100308A8E /* TimerViewController.m in Sources */,
+				9327FA0B1B5EFD8400308A8E /* RoundsController.m in Sources */,
 				34FB5C171A95A83100E3E2F8 /* AppDelegate.m in Sources */,
 				34FB5C141A95A83100E3E2F8 /* main.m in Sources */,
+				9327FA021B5EEEB900308A8E /* RoundsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +434,7 @@
 				34FB5C331A95A83200E3E2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34FB5C341A95A83200E3E2F8 /* Build configuration list for PBXNativeTarget "The-Pomodoro-iOS8Tests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +443,7 @@
 				34FB5C361A95A83200E3E2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
